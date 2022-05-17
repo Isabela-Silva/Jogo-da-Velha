@@ -1,0 +1,12 @@
+{
+  "name": "jogo-da-velha",
+  "version": "1.0.0",
+  "description": "",
+  "main": "scripts.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass style.scss:style.css --watch"
+  },
+  "author": "",
+  "license": "ISC"
+}

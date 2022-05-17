@@ -1,0 +1,109 @@
+body {
+  text-align: center;
+  background-image: url(images/bgGalaxy.jpg);
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+body h1 {
+  color: #fff;
+  font-family: Nunito, sans-serif;
+  font-weight: 400;
+  font-size: 3.1rem;
+  padding-top: 2.5rem;
+}
+body .container-principal {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  margin-left: 15.6rem;
+}
+body .container-principal .container {
+  width: 37.5rem;
+  height: 37.5rem;
+}
+body .container-principal .container .quadrado {
+  text-align: center;
+  width: 2.5rem;
+  background: #c77dff;
+  display: inline-block;
+  padding: 2.37rem;
+  font-size: 3.62rem;
+  margin: 0.3rem;
+  border-radius: 4.3rem;
+  cursor: pointer;
+  color: #c77dff;
+}
+body .mini-container {
+  height: 11.25rem;
+  width: 12.5rem;
+  background-color: #c77dc7;
+  border-radius: 1.2rem;
+}
+body .mini-container .jogador, body .mini-container .vencedor {
+  font-size: 1.8rem;
+  margin-top: 1.1rem;
+  color: #eee;
+}
+body .mini-container .jogador label, body .mini-container .vencedor label {
+  font-family: Nunito, sans-serif;
+  font-size: 1.7rem;
+  font-weight: 200;
+}
+body .mini-container button {
+  margin-top: 1.6rem;
+  width: 6.2rem;
+  height: 1.8rem;
+  background: #eee;
+  cursor: pointer;
+  background-color: rgba(62, 17, 167, 0.5333333333);
+  font-style: arial;
+  color: #eee;
+  border-color: rgba(33, 8, 54, 0.5568627451);
+  border-radius: 0.6rem;
+}
+body .mini-container button:hover {
+  background-color: rgba(47, 5, 145, 0.8705882353);
+  transition: 0.7s;
+}
+
+@media (max-width: 768px) {
+  body {
+    height: 100vh;
+    width: 100vw;
+  }
+  body h1 {
+    font-size: 2.5rem;
+  }
+  body .container-principal {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+  }
+  body .container-principal .container {
+    height: 18.7rem;
+    width: 18.7rem;
+    margin: 0 auto;
+  }
+  body .container-principal .container .fileira {
+    width: 18.7rem;
+  }
+  body .container-principal .container .fileira .quadrado {
+    width: 3.1rem;
+    padding: 0.6rem;
+    font-size: 3rem;
+    margin: 0.3rem;
+  }
+  body .container-principal .mini-container {
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+  body .container-principal .mini-container .jogador,
+body .container-principal .mini-container .vencedor label {
+    font-family: Nunito, sans-serif;
+    font-size: 1.5rem;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
